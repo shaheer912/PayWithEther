@@ -1,5 +1,5 @@
 # PayWithEther
-**Contributors:** leewillis77  
+**Contributors:** shaheer912  
 **Tags:** payment, crypto, ethereum, ether, jQuery
 **Requires at least:** Metamask Browser Plugin, web3.js, jQuery  
 
