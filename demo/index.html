@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
+		<script src='../PayWithEther.js'></script>
+	</head>
+	<body>
+		<h1>Pay With Ether Demo</h1>
+		<a href='#' id="pay_with_ether">Pay With Ether</a>
+		
+		<script>
+			var options = {
+				toAccount: '0x18c791fb71CA8E3DE8479134335267F400308A0B',
+				amount: 1
+			};
+			jQuery('#pay_with_ether').payWithEther(options);
+		</script>
+		
+	</body>
+</html>
