@@ -74,4 +74,4 @@ var defaults = {
   // Callback to process response from Etherium network against a transaction, it is recommended that you overwrite this, as at the moment it will just show alert/failure as a javascript alert.
   responseCallback: responseCallback
 };
-```js
+```
